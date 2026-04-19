@@ -8,9 +8,7 @@ int main() {
 
     hra = (10 * bs)/100;
     ta = (5 * bs)/100;
-    // scanf("%d%d", &hra, &ta);
     gross = bs+hra+ta;
-    scanf("%f", &gross);
     printf("gross salary = %.2f\n", gross);
 
     pay = gross - (2*gross)/100;
